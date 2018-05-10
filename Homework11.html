@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pop Star</title>
+	<style type="text/css">
+		#header{
+			position: relative;
+			width: 1200px;
+			border: 1px solid black;
+			background-color: white;
+			color: grey;
+			height: 100px;
+		}
+
+		#left_col{
+			position: relative;
+			width: 240px;
+			height: 300px;
+			float: left;
+			border-left: 1px solid black;
+			border-bottom: 1px solid white;
+			background-color: white;
+		}
+
+		#center_col{
+			position: relative;
+			width: 600px;
+			height: 300px;
+			float: left;
+			border-bottom: 1px solid white;
+			background-color: white;
+			
+		}
+
+		#right_col{
+			position: relative;
+			width: 360px;
+			height: 300px;
+			float: left;
+			border-right: 1px solid black;
+			border-bottom: 1px solid white;
+			background-color: white;
+			
+		}		
+
+		#footer{
+			position: relative;
+			width: 1200px;
+			border: 1px solid black;
+			height: 100px;
+			background-color: white;
+			color: black;
+			text-align: right;
+		}
+
+		#right_colPlus{
+			position: absolute;
+			border: 1px solid black;
+			width: 359px;
+			height: 20px;
+			background-color: grey;
+		}
+
+		#footerPlus{
+			position: absolute;
+			border: 1px solid black;
+			width: 300px;
+			height: 20px;
+			background-color: grey;	
+		}
+
+		#circle{
+			position: absolute;
+			left: 70px;
+			bottom: -25px;
+			width: 60px;
+			height: 60px;
+			border: 12px solid grey;
+			background-color: white;
+			border-radius: 50%;
+			z-index: 1;
+		}
+
+		#popStar {
+			position: absolute;
+			left: 160px;
+			bottom: -12px;
+			font-size: 50px;
+			font-family: arial, serif;
+			letter-spacing: 0.1em;
+			z-index: 1;
+		}
+
+		ul{
+			list-style-type: none;
+			text-align: right;
+			margin-top: 50px;
+			font-size: 25px;
+			color: grey;
+		}
+
+		p{
+			margin: 50px 15px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div id="header">
+
+		<div id="circle"></div>
+
+		<div id="popStar">PopStar</div>
+
+	</div>
+
+	<div id="left_col">
+		<ul>
+			<li>О компаннии</li>
+			<li>Наши зведочки</li>
+			<li>Услуги</li>
+			<li>Контакты</li>
+		</ul>
+	</div>
+
+	<div id="center_col">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis vero quidem harum in laudantium nam explicabo quasi consequuntur et atque, ratione sed, voluptatem nulla doloribus eaque, numquam quam quas. Ipsa, maxime minima, accusantium necessitatibus beatae, assumenda amet, repellendus quod sed non ab quidem ipsam porro! Animi corrupti, eaque dicta quo ullam, et. Facere tempore fuga nihil odit,  Consequuntur natus quaerat iusto nulla earum a ab quam commodi est molestias.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, quisquam tempore odio est quibusdam dolorum ab perferendis corporis adipisci doloremque.</p>
+	</div>
+
+	<div id="right_col">
+		<div id="right_colPlus"></div>
+		<br>
+		<h3>НОВОСТИ</h3>
+		<h4>20.03.2014</h4>
+		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ipsam corporis. Quo sequi animi iste iure doloribus sunt repellendus unde.</span>
+		<h4>22.03.2015</h4>
+		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ipsam corporis. Quo sequi animi iste iure doloribus sunt repellendus unde.</span>
+	</div>
+
+	<div style="clear:both"></div>
+
+	<div id ="footer">
+		<div id="footerPlus"></div>
+	&copy; Copyright MarkForestSoft, 2005.</div>
+</body>
+</html>
